@@ -3,6 +3,7 @@
 This project was made for the purpose of comparing the grid performance between igxGrid and mat-table.
 
 [Ignite UI for Angular Grid](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/grid)
+
 [Angular Material Table Component](https://material.angular.io/components/table/overview)
 
 Benchmarking methodology is refered to this article.
