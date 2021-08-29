@@ -1,0 +1,25 @@
+<div class="grid__wrapper">
+  <igx-grid igxPreventDocumentScroll #grid1 [data]="data | async" height="640px" width="512px" [autoGenerate]='false' [allowFiltering]="false">
+      <igx-column [field]="'Category'" [width]="'120px'"></igx-column>
+      <igx-column [field]="'Type'" [width]="'150px'"></igx-column>
+      <igx-column [field]="'Open Price'" [width]="'120px'" dataType="number">
+      </igx-column>
+      <igx-column [field]="'Price'" [width]="'120px'" dataType="number"></igx-column>
+      <igx-column [field]="'Change'" [width]="'120px'" dataType="number">
+      </igx-column>
+      <igx-column [field]="'Change(%)'" [width]="'130px'" dataType="number">
+      </igx-column>
+      <igx-column [field]="'Change On Year(%)'" [width]="'150px'" dataType="number">
+      </igx-column>
+      <igx-column [field]="'Buy'" [width]="'130px'" dataType="number"></igx-column>
+      <igx-column [field]="'Sell'" [width]="'130px'" dataType="number"></igx-column>
+      <igx-column [field]="'Spread'" [width]="'130px'" dataType="number"></igx-column>
+      <igx-column [field]="'Volume'" [width]="'130px'" dataType="number"></igx-column>
+      <igx-column [field]="'High(D)'" [width]="'130px'" dataType="number"></igx-column>
+      <igx-column [field]="'Low(D)'" [width]="'130px'" dataType="number"></igx-column>
+      <igx-column [field]="'High(Y)'" [width]="'130px'" dataType="number"></igx-column>
+      <igx-column [field]="'Low(Y)'" [width]="'130px'" dataType="number"></igx-column>
+      <igx-column [field]="'Start(Y)'" [width]="'130px'" dataType="number"></igx-column>
+  </igx-grid>
+  <br />
+</div>
